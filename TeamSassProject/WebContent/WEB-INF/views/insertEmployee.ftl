@@ -6,18 +6,18 @@
 </head>
 <body>
 <h1>Please enter your details</h1>
-<form >
+<form action="insertEmployee.mvc>
 <fieldset >
-<p id="id">Please enter the employee ID: </p><input type="text">
+<p id="empID">Please enter the employee ID: </p><input type="text">
 </fieldset>
 <fieldset >
-<p id="firstName">Please enter your first name: </p><input type="text">
+<p id="empFirstName">Please enter your first name: </p><input type="text">
 </fieldset>
 <fieldset >
-<p id="lastName">Please enter your last name: </p><input type="text">
+<p id="empLastName">Please enter your last name: </p><input type="text">
 </fieldset>
 <fieldset>
-<p id=nationalInsuranceNum>Please enter the national insurance number: </p><input type="text"> 
+<p id=empNationalInsuranceNumber>Please enter the national insurance number: </p><input type="text"> 
 </fieldset>
 <input type = "submit" value="Submit">	
 </form>
