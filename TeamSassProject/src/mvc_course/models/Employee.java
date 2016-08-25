@@ -17,6 +17,9 @@ public class Employee {
 //	private String empDepartment;
 //	private String empEmail;
 	
+	public Employee(){
+		
+	}
 	public Employee(int empID, String empFirstName, String empLastName,
 			String empNationalInsurance){
 		

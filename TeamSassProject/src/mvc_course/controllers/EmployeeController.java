@@ -15,6 +15,7 @@ public class EmployeeController {
 
 	@RequestMapping("insertEmployee.mvc")
 	public void employee(Employee emp) {
+		System.out.println(emp.getEmpFirstName());
 		employeeMapper.insertEmployee(emp);
 
 	}
