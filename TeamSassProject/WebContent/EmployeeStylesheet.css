@@ -1,0 +1,10 @@
+*{
+background-color: #b3d9ff;
+}
+
+input[type=submit] {
+    width: 20%;
+    margin: 8px;
+    border-style: dotted;
+    border-color: #ff3385;
+}
