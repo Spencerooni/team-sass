@@ -10,7 +10,10 @@ public interface IEmployeeMapper {
 			+ "national_insurance, address, city, postcode, email_address"
 			+ "account_name, IBAN, BIC, start_salary) "
 			+ "VALUES('#{empID}', '#{empFirstName}', '#{empLastName}',"
-			+ "'#{empNationalInsurance}')")
+			+ "'#{empNationalInsurance}', '#{empAddress}', '#{empCity}', "
+			+ "'#{empPostcode}', #{empEmail}', '#{empAccountName}',"
+			+ " '#{empIBAN}', #{empBIC}', '#{empStartSalary}', "
+			+ "'#{empLastName}' )")
 	int insertEmployee(Employee emp);
 
 }
