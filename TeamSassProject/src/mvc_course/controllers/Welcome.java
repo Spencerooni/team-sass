@@ -22,10 +22,13 @@ public class Welcome {
 	@RequestMapping(value = "index.mvc")
 	public String landingPage(Model m) {
 		m.addAttribute("msg", "Hello from the controller!");
-		return "insertEmployee";
+		return "splashScreen";
 	}
 	
-
+	@RequestMapping(value = "insert.mvc")
+	public String splashScreen() {
+		return "insertEmployee";
+	}
 @RequestMapping(value="CityList.mvc")
 public String cityList(Model m) {
    try {
