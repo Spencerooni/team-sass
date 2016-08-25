@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" type="text/css" href="EmployeeStylesheet.css"/>
 <meta charset="UTF-8">
 <title>Insert Employee details</title>
 </head>
@@ -47,6 +48,7 @@
 <p >Please enter the email: </p><input type="text" name=empEmail> 
 </fieldset>
 <input type = "submit" value="Submit">	
+<iframe src="//giphy.com/embed/amUVFzg1wNZKg" width="480" height="359" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/computer-frustrated-working-amUVFzg1wNZKg">^^ How we felt yesterday</a></p>
 </form>
 </body>
 </html>
